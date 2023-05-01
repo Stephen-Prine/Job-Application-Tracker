@@ -1,0 +1,1 @@
+* need to add email to database So you can get a link to that website per each Application Entry (maybe to reapply down the road!)
