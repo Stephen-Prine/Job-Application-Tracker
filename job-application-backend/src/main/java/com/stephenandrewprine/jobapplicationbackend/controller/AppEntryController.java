@@ -1,5 +1,6 @@
 package com.stephenandrewprine.jobapplicationbackend.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,7 @@ import com.stephenandrewprine.jobapplicationbackend.services.AppEntryService;
 
 import lombok.AllArgsConstructor;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @AllArgsConstructor
 @RestController
 @RequestMapping("/api/v1")
