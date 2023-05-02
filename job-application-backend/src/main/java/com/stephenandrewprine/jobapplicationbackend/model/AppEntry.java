@@ -14,4 +14,5 @@ public class AppEntry {
     private String companyName;
     private String notes;
     private LocalDate dateApplied;
+    private String link;
 }
