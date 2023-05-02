@@ -9,4 +9,10 @@ public interface AppEntryService {
 
     List<AppEntry> getAllAppEntrys();
 
+    boolean deleteEntry(Long id);
+
+    AppEntry getEntryById(Long id);
+
+    AppEntry updateEntry(Long id, AppEntry entry);
+
 }
