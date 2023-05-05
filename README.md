@@ -7,3 +7,5 @@ There are two repositories for this little project. This is the Spring Boot appl
 * Created the Repository and Service layers to communicate with the database using Spring-data-JPA and MySQL-Driver. 
 * Used Lombok dependency for the boilerplate code. 
 * Built the controller for all the CRUD operations calls from the front end required for the application.  
+
+# Video Demo Inside the job-application-tracker-ui Repository 
